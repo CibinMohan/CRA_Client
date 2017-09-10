@@ -1,0 +1,18 @@
+
+.main-lay{
+    background: #ffffcc;
+}
+.nav-bar-holder{
+    }
+.nav-bar-all{
+    padding-left: 12%;
+    padding-right: 10%;
+    
+    background: linear-gradient(to bottom, white 0%,white 40%, black 40%,black 47%,#b30000 47%,#b30000 53%,black 53%,black 60%
+    , white 60%,white 100%); 
+}
+.child-container{ 
+    margin-top:0; 
+    padding-left: 12%;
+    padding-right: 10%;
+}

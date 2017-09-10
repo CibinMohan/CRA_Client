@@ -1,0 +1,51 @@
+.list-club{
+    padding: 1.5%;
+    border-radius: 5px;
+    min-height: 200px;
+    max-width: 250px;
+    font-size: 110%;
+    background-color: #191919;
+    display: block;
+    color: #cccccc;
+    list-style-type: none;
+    text-decoration: none;
+    background: linear-gradient(to right,#191919 0%,#191919 5%,#b30000 5%,#b30000 5%,#191919 15%,#191919 100%);
+}
+.dot-color{
+    /*background: linear-gradient(to top,#b30000 0%,#b30000 35%,#b30000 35%,yellow 80%,yellow 100%); */
+    /*color: #b30000;*/
+    /*background: -webkit-linear-gradient(left, red , blue);
+    background: -o-linear-gradient(right, red, blue);
+    background: -moz-linear-gradient(right, red, blue);*/
+    /*background-image: linear-gradient(to right, red , blue);
+     background-clip: text;*/
+      /*background: -webkit-linear-gradient(yellow, #b30000);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;*/
+     margin-left: 15px;
+}
+.element-club{
+    background: -webkit-linear-gradient(black, #333, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #333, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #333, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #333, black); /* Standard syntax */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-bottom-color: #b30000;
+    transition: transform 300ms ease-in-out;
+}
+.heat-map{
+  border-radius: 5px;
+  margin:3px;
+}
+.row{}
+.main-data{
+}
+.element-club:hover {
+transform: translate(5%,4%);
+border-right:2px solid #333;
+border-left:2px solid #333;
+color: white;
+
+}
